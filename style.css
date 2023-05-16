@@ -24,5 +24,6 @@ nav > li {
 
 article {
   padding: 20px;
-
+  float: left;
+  width: 80%;
 }
