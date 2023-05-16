@@ -1,6 +1,7 @@
 * {
   margin:0px;
   padding:0px;
+  box-sizing: border-box;
 }
 
 body {
@@ -8,11 +9,18 @@ body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+/* Style the header */
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
 
 nav {
   float: left;
   background-color: #e2e2e2;
-  height:auto;
   width: 20%;
   padding: 10px;
   margin-right: 20px;
@@ -26,5 +34,11 @@ article {
   padding: 20px;
   float: left;
   width: 80%;
-  height: auto;
+}
+
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
 }
