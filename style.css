@@ -12,7 +12,7 @@ body {
 nav {
   float: left;
   background-color: #e2e2e2;
-  height:100%;
+  height:auto;
   width: 20%;
   padding: 10px;
   margin-right: 20px;
@@ -26,4 +26,5 @@ article {
   padding: 20px;
   float: left;
   width: 80%;
+  height: auto;
 }
