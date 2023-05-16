@@ -7,9 +7,12 @@
 body {
   height:100%;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  display: flex;  
-  flex-flow: row wrap;
 }
+
+.container {
+  display: flex;
+}
+
 
 /* Style the header */
 header {
@@ -25,7 +28,6 @@ nav {
   background-color: #e2e2e2;
   width: 20%;
   padding: 10px;
-  margin-right: 20px;
 }
 
 nav > li {
@@ -36,7 +38,12 @@ article {
   padding: 20px;
   text-align: left;
   background: deepskyblue;
-  width: auto;
+  width: 60%;
+}
+
+aside {
+  width: 20px;
+  background-color: aquamarine;
 }
 
 footer {
