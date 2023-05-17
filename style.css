@@ -7,7 +7,7 @@
 body {
   height:100%;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: white;
+  background-color: whitesmoke;
 }
 
 .container {
@@ -27,9 +27,10 @@ header {
 }
 
 nav {
-  background-color: #e2e2e2;
+  background-color: transparent;
   width: 20%;
   padding: 10px;
+  border-right: #ccc 1px solid;
 }
 
 nav > li {
@@ -40,8 +41,9 @@ article {
   padding: 20px;
   flex-grow: 1;
   text-align: left;
-  background: deepskyblue;
+  background: white;
   width: 60%;
+  border-left: #ccc 1px solid;
 }
 
 aside {
