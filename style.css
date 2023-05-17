@@ -46,6 +46,11 @@ article {
   border-left: #ccc 1px solid;
 }
 
+article:focus {
+  outline: none; 
+  border: 0px;
+}
+
 aside {
   width: 20%;
   background-color: transparent;
