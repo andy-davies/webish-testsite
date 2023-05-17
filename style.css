@@ -41,7 +41,7 @@ article {
   padding: 20px;
   flex-grow: 1;
   text-align: left;
-  background: white;
+  background: transparent;
   width: 60%;
   border-left: #ccc 1px solid;
 }
